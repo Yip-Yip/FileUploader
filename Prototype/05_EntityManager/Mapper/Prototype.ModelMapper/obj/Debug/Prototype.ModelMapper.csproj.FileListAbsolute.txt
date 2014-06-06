@@ -1,0 +1,4 @@
+C:\Temp\Projects\Prototype\Prototype.ModelMapper\bin\Debug\Prototype.ModelMapper.dll
+C:\Temp\Projects\Prototype\Prototype.ModelMapper\bin\Debug\Prototype.ModelMapper.pdb
+C:\Temp\Projects\Prototype\Prototype.ModelMapper\obj\Debug\Prototype.ModelMapper.dll
+C:\Temp\Projects\Prototype\Prototype.ModelMapper\obj\Debug\Prototype.ModelMapper.pdb

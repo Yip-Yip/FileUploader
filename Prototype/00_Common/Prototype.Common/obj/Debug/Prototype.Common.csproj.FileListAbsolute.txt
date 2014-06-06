@@ -1,0 +1,5 @@
+C:\Temp\Projects\Prototype\Prototype.Common\bin\Debug\Prototype.Common.dll
+C:\Temp\Projects\Prototype\Prototype.Common\bin\Debug\Prototype.Common.pdb
+C:\Temp\Projects\Prototype\Prototype.Common\obj\Debug\Prototype.Common.csprojResolveAssemblyReference.cache
+C:\Temp\Projects\Prototype\Prototype.Common\obj\Debug\Prototype.Common.dll
+C:\Temp\Projects\Prototype\Prototype.Common\obj\Debug\Prototype.Common.pdb

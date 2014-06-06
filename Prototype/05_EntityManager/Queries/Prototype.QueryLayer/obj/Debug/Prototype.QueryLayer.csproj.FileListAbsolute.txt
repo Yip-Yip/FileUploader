@@ -1,0 +1,4 @@
+C:\Temp\Projects\Prototype\Prototype.QueryLayer\bin\Debug\Prototype.QueryLayer.dll
+C:\Temp\Projects\Prototype\Prototype.QueryLayer\bin\Debug\Prototype.QueryLayer.pdb
+C:\Temp\Projects\Prototype\Prototype.QueryLayer\obj\Debug\Prototype.QueryLayer.dll
+C:\Temp\Projects\Prototype\Prototype.QueryLayer\obj\Debug\Prototype.QueryLayer.pdb

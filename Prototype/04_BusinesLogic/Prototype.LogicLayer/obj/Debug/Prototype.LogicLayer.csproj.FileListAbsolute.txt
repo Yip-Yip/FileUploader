@@ -1,0 +1,4 @@
+C:\Temp\Projects\Prototype\Prototype.LogicLayer\bin\Debug\Prototype.LogicLayer.dll
+C:\Temp\Projects\Prototype\Prototype.LogicLayer\bin\Debug\Prototype.LogicLayer.pdb
+C:\Temp\Projects\Prototype\Prototype.LogicLayer\obj\Debug\Prototype.LogicLayer.dll
+C:\Temp\Projects\Prototype\Prototype.LogicLayer\obj\Debug\Prototype.LogicLayer.pdb

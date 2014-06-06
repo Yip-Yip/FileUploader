@@ -1,0 +1,16 @@
+﻿@model Prototype.Web.Models.FileUploadModel
+
+@{
+    ViewBag.Title = "Confirmation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="full-width">
+    <h2>Confirmation</h2>
+    <br />
+    <h4>Document Upload Process has completed</h4>
+    <br/>
+    <p>OK, you made it.<p>
+    <p>To get here you would have selected 2 documents, uploaded them to the Post Action method on the Documents Controller.</p>
+    <p>After this, each file is sent  to a business layer where they are further validated before saving as a byte array. (They currently dont save anywhere in this solution)</p>
+    <p>For more code info, check out the service layer (it is not hooked up yet but a .NET dev will recognise the techniques used).</p>
+</div>

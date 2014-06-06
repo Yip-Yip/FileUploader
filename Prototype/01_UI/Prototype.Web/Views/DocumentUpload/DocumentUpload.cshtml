@@ -1,0 +1,72 @@
+﻿@using Prototype.Web.Helpers
+@model Prototype.Web.Models.FileUploadModel
+
+@{
+    ViewBag.Title = "Document Upload";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+    <div class="documentUpload full-width">
+        @using (Html.BeginForm("DocumentUpload", "DocumentUpload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <br /><br />
+        <div id="divDocumentUpload" class="full-width">
+            <fieldset class="order-form form-fields">
+                <legend>Document Uploader</legend>
+                <p>Please select two files to execute the file uploader. <br />To view the code, best to put a break point on the Post Action Method on the Document Upload Controller.</p>
+                <br /><br />
+                <div id="fileUpload1" class="full-width fileUpload">
+                    <label class="add-file-btn ui-button button1">
+                        Choose File
+                        @Html.TextBoxFor(m => m.FileUploadList, new { type = "file", id = "fileUpload" })
+                    </label>
+                    <input type="text" id="file-path" />
+                    <span>&nbsp;</span>
+                </div>
+
+                @if (Model.FilesToUpload > 1)
+                {
+                    <br />
+                    <br />
+                    <div class="cb">
+                    </div>
+                    <div id="fileUpload2" class="full-width fileUpload">
+                        <label class="add-file-btn ui-button button1">
+                            Choose File
+                            @Html.TextBoxFor(m => m.FileUploadList, new { type = "file", id = "additionalFileUpload", @class = "additionalFileUpload" })
+                        </label>
+                        <input type="text" id="additional-path" />
+                        <span>&nbsp;</span>
+                    </div>
+                }
+                <div class="cb">
+                </div>
+                <div class="full-width">
+                    <button id="btnSave" type="submit" name="Save">
+                        <span><span>Upload</span></span>
+                    </button>
+                </div>
+                <div class="cb">
+                </div>
+                <div class="full-width">
+                    <p class="justified"><span>Ensure your identification documents are:</span></p>
+                    <ul>
+                        <li>in file format: .pdf, .jpg, .jpeg, .pjpeg, .tiff, .gif or .png</li>
+                        <li>no larger than @Html.GetMaximumFileUploadSize()mb in size</li>
+                    </ul>
+                </div>
+                <div class="cb">
+                </div>
+                <div id="divError" class="full-width">
+                    <div class="full-width">
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        @Html.HiddenFor(m => m.FilesToUpload)
+        }
+    </div>
+
+

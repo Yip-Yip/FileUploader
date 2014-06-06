@@ -1,0 +1,5 @@
+C:\Temp\Projects\Prototype\Prototype.ServiceContract\bin\Debug\Prototype.ServiceContract.dll
+C:\Temp\Projects\Prototype\Prototype.ServiceContract\bin\Debug\Prototype.ServiceContract.pdb
+C:\Temp\Projects\Prototype\Prototype.ServiceContract\obj\Debug\Prototype.ServiceContract.csprojResolveAssemblyReference.cache
+C:\Temp\Projects\Prototype\Prototype.ServiceContract\obj\Debug\Prototype.ServiceContract.dll
+C:\Temp\Projects\Prototype\Prototype.ServiceContract\obj\Debug\Prototype.ServiceContract.pdb
